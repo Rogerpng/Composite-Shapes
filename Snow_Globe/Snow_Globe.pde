@@ -12,17 +12,17 @@ globeSquareX = width*1/2-height*1/2;
 globeSquareY = height*0;
 globeSquareSide = height;
 globeX = width*1/2;
-globeY = height*1/2;
+globeY = height*1/2-height*1/8;
 globeDiameter = height;
 
 snowX = width*1/2-height*1/3;
 snowY = height*1/2;
 snowDiameter = height*1/10;
 
-baseX = width*1/2;
-baseY = height*1/2;
+baseX = width*1/2-width*1/4;
+baseY = height*7/8;
 baseWidth = width*1/2;
-baseHeight = height*1/3;
+baseHeight = height*1/8;
 //
 //The Snow Globe
 //
