@@ -18,5 +18,8 @@ void populatingVariables() {
   ellipse(globeX, globeY, globeDiameter, globeDiameter);
   //
   //The Base
+  baseColour = brown;
+  fill(baseColour);
   rect(baseX, baseY, baseWidth, baseHeight);
+  fill(reset);
 } //End PopulatingVariables()
