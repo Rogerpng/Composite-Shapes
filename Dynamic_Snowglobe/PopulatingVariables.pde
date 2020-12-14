@@ -1,15 +1,16 @@
 void populatingVariables() {
+  baseX = width*4/5-width*4/5;
+  baseY = height*4/5;
+  baseWidth = width*2/3;
+  baseHeight = height*2/3;
+  
   globeSquareX = width*1/2-height*1/2;
   globeSquareY = height*0;
   globeSquareSide = height;
   globeX = width*1/2;
   globeY = height*1/2-height*1/8;
   globeDiameter = height;
-
-  baseX = width*1/2-width*1/2;
-  baseY = height*7/8;
-  baseWidth = width*1/3;
-  baseHeight = height*1/7;
+  
   //
   //The Snow Globe
   //
