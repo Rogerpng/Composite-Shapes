@@ -1,6 +1,6 @@
 void populatingVariables() {
-  baseX = width*4/5-width*4/5;
-  baseY = height*4/5;
+  baseX = width*6/7-width*2/3;
+  baseY = height*3/4;
   baseWidth = width*2/3;
   baseHeight = height*2/3;
   
@@ -13,10 +13,10 @@ void populatingVariables() {
   
   //
   //The Snow Globe
-  //
-  //The Base
-  rect(baseX, baseY, baseWidth, baseHeight);
   //The circle
   rect(globeSquareX, globeSquareY, globeSquareSide, globeSquareSide);
   ellipse(globeX, globeY, globeDiameter, globeDiameter);
+  //
+  //The Base
+  rect(baseX, baseY, baseWidth, baseHeight);
 } //End PopulatingVariables()
