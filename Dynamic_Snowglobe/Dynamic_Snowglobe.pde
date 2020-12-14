@@ -13,8 +13,8 @@ void setup() {
 } //End Void Setup
 void draw() {
 
-  snowX = random(globeSquareX, globeSquareX+globeSquareSide-snowDiameter);
-  snowY = random(globeSquareY, globeSquareY+globeSquareSide-snowDiameter);
+  snowX = random(globeSquareX+snowDiameter, globeSquareX+globeSquareSide-snowDiameter);
+  snowY = random(height*0+snowDiameter, height-snowDiameter);
   snowDiameter = random(height*1/20, height*1/10);
   //The Snow falling
   ellipse(snowX, snowY, snowDiameter, snowDiameter);
